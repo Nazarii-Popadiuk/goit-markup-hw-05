@@ -707,8 +707,12 @@ link:focus {
 .visually-hidden:checked + .privacy-policy {
   background-color: #404bbf;
   border: none;
+}
+
+.label-policy .visually-hidden:checked + .privacy-policy .icon-policy {
   fill: #f4f4fd;
 }
+
 .link-policy {
   color: #4d5ae5;
 }
