@@ -648,6 +648,10 @@ link:focus {
   fill: #4d5ae5;
 }
 
+.comment-cont {
+  margin-bottom: 16px;
+}
+
 .comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -663,6 +667,7 @@ link:focus {
   /* line-height: 14px; */
   line-height: 1.17;
   letter-spacing: 0.04em;
+  background-color: transparent;
   color: rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -675,7 +680,7 @@ link:focus {
   margin-bottom: 24px;
 }
 
-.input-policy {
+.visually-hidden {
   overflow: hidden;
 }
 
