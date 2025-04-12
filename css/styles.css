@@ -680,10 +680,6 @@ link:focus {
   margin-bottom: 24px;
 }
 
-.visually-hidden {
-  overflow: hidden;
-}
-
 .label-policy {
   font-size: 12px;
   line-height: 1.17;
@@ -704,12 +700,12 @@ link:focus {
   justify-content: center;
   fill: transparent;
 }
-.label-policy input[type="checkbox"]:checked + .privacy-policy {
+input[type="checkbox"]:checked + .privacy-policy {
   background-color: #404bbf;
   border: none;
 }
 
-.label-policy input[type="checkbox"]:checked + .privacy-policy .icon-policy {
+input[type="checkbox"]:checked + .privacy-policy .icon-policy {
   fill: #f4f4fd;
 }
 
