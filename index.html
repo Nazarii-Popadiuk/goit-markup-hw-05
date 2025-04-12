@@ -401,12 +401,12 @@
         </ul>
       </div>
       <div class="form">
-        <form>
-          <label>
-            <p class="footer-media-text">Subscribe</p>
+        <p class="footer-media-text">Subscribe</p>
+        <form class="footer-form">
+          <label class="footer-label">
             <input class="footer-input" type="text" name="email" placeholder="E-mail" />
           </label>
-          <button class="footer-btn" type="submit">Subscribe<svg width="24" height="20">
+          <button class="footer-btn" type="submit">Subscribe<svg class="sent-icon" width="24" height="24">
               <use href="./images/modal.svg#send"></use>
             </svg>
           </button>
@@ -415,10 +415,10 @@
   </footer>
   <div class="modal-overlay">
     <div class="modal">
-      <div class="modal-svg">
-        <svg class="modal-svg-item" width="24" height="24">
+      <button class="close-btn" type="button"><svg class="modal-svg-item" width="8" height="8">
           <use href="./images/close.svg#close"></use>
-      </div>
+        </svg>
+      </button>
       <p class="modal-text">Leave your contacts and we will call you back</p>
       <form>
         <div class="input-wrapper">
