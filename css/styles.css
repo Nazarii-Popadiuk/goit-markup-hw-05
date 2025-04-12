@@ -672,7 +672,7 @@ link:focus {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment:hover {
+.comment:focus {
   border-color: #4d5ae5;
 }
 
@@ -704,7 +704,7 @@ link:focus {
   justify-content: center;
   fill: transparent;
 }
-.input-policy:checked + .privacy-policy {
+.visually-hidden:checked + .privacy-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
