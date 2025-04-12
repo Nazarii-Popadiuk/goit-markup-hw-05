@@ -700,7 +700,7 @@ link:focus {
   justify-content: center;
   fill: transparent;
 }
-input[type="checkbox"]:checked + .privacy-policy {
+input[type="checkbox"]:checked + span {
   background-color: #404bbf;
   border: none;
 }
