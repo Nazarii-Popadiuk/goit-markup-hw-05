@@ -708,6 +708,7 @@ input[type="checkbox"]:checked + label > span {
 
 .link-policy {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .send-btn {
@@ -715,6 +716,7 @@ input[type="checkbox"]:checked + label > span {
   justify-content: center;
   border-radius: 4px;
   padding: 16px 32px;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
